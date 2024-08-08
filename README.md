@@ -1,5 +1,8 @@
 Instructions to run the portfolio locally
 
+See on Netlify:
+https://master--portfolio-sgc.netlify.app/
+
 # My React Portfolio
 
 This is my portfolio built using React.
@@ -31,9 +34,5 @@ This is my portfolio built using React.
 4. **Start the Development Server**:
    - Starts the local development server, allowing the user to view the portfolio in their browser at `http://localhost:3000`.
 
-5. **Additional Commands**:
-   - **Build for Production**: Creates an optimized build of the project.
-   - **Linting**: Checks for and potentially fixes code style issues.
-   - **Running Tests**: Executes any tests that are configured in the project.
 
 
