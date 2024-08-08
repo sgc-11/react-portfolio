@@ -1,30 +1,39 @@
-# React + TypeScript + Vite
+Instructions to run the portfolio locally
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# My React Portfolio
 
-Currently, two official plugins are available:
+This is my portfolio built using React.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Instructions to Run Locally
 
-## Expanding the ESLint configuration
+1. **Clone the repository**:
+   ```sh
+   git clone https://github.com/sgc-11/react-portfolio.git
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+   cd react-portfolio
 
-- Configure the top-level `parserOptions` property like this:
+   npm install
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+   npm start
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+### Instructions Breakdown
+
+1. **Clone the Repository**:
+   - This command downloads the project files from GitHub to the local machine.
+
+2. **Navigate to the Project Directory**:
+   - Changes the current directory to the project directory.
+
+3. **Install Dependencies**:
+   - Installs the necessary packages and dependencies listed in `package.json`.
+
+4. **Start the Development Server**:
+   - Starts the local development server, allowing the user to view the portfolio in their browser at `http://localhost:3000`.
+
+5. **Additional Commands**:
+   - **Build for Production**: Creates an optimized build of the project.
+   - **Linting**: Checks for and potentially fixes code style issues.
+   - **Running Tests**: Executes any tests that are configured in the project.
+
+
