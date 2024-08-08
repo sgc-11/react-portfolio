@@ -1,4 +1,3 @@
-import React from 'react'
 import profilePic from "../assets/IMG_3831.jpg"
 import hobbiePic1 from "../assets/hobbiePic1.webp"
 import hobbiePic2 from "../assets/hobbiePic2.jpg"
