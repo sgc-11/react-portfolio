@@ -56,7 +56,7 @@ const Experience: React.FC = () => {
   return (
     <section className='max-w-screen-xl mx-auto py-20 px-6 md:px-20 relative' id='experience'>
       <h2 className='text-primary text-3xl md:text-4xl font-bold text-center mb-12'>
-        Project Experience
+         Experience
       </h2>
 
       <div className="relative">

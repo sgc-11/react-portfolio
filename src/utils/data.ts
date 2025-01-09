@@ -13,10 +13,10 @@ import{
 
 export const profileInfo ={
   name : "Simón Gómez Castro",
-  tagline: `Passionate initiating developer convinced on his habilities for crafting great web experiences`,
-  jobTitle: "Web Developer",
+  tagline: `Passionate developer convinced on his habilities for crafting great experiences`,
+  jobTitle: "Systems Engineer",
   location: "Colombia",
-  yearsOfExperience: 1,
+  yearsOfExperience: 3183044472,
   skills:[
     "React.js",
     "Javascript",
@@ -26,8 +26,11 @@ export const profileInfo ={
     "Tailwind CSS",
     "Java",
     "PostgreSQL",
+    "NestJS",
+    "Networks",
+    "POO"
   ],
-  email: "sgc.corp11@gmail.com",
+  email: "sigoca11@gmail.com",
   phone: "+57 3183044472",
 };
 
@@ -110,31 +113,73 @@ export const skills = [
 export const ExperienceData =[
   {
     id: "01",
-    name: "Police Dpt",
+    name: "Police Department Database",
     environment: "Java",
-    description: "Developed a Police Department database in Java, using Java Swing, which included tables with suspects, cases, citizens and police officers",
+    description: "Developed a Police Department database in Java, using Java Swing, which included tables with suspects, cases, citizens and police officers. My team and i implemented the use of Jpanels for each section.",
   },
 
   {
     id: "02",
-    name: "NY AirBnb analysis",
-    environment: "Python",
-    description: "Data analytics application into an Air Bnb data base of New York properties, their price, accomodations, etc. It included the use of Machine Learning.",
+    name: "Microservices using NATS",
+    environment: "NestJS",
+    description: "Social Media Club Microservices. One Booking, and one Ordering Microservices. They both communicating through NATS, and with a request-response approach.",
   },
 
   {
     id: "03",
-    name: "Youtube copy",
-    environment: "HTML - CSS",
-    description: "Youtube webpage duplicate",
+    name: "Mesa Enterprise",
+    environment: "NestJS, ReactJS, PostgreSQL",
+    description: "Project for my Web development class, it included a Frontend in React, and Backend with NestJS. A PostgreSQL db was uploaded to Render, and a RestFUL API was done in NestJs. The React Frontend showed a page for events, models, and photo sales. The information was taken from the API.",
+  },
+
+  {
+    id: "04",
+    name: "NY AirBnb analysis",
+    environment: "Python",
+    description: "Data analytics application into an Air Bnb database with information about New York properties (price, accomodations, etc.) It included the use of basic Machine Learning.",
+  },
+
+  {
+    id: "05",
+    name: "TroncosFC",
+    environment: "NestJS, ReactJS, PostgreSQL",
+    description: "Web page for my soccer team for the amateur tournament, it included players, a calendar with the games, and the tournament table. I developed it along my friend Luis Rodriguez",
+  },
+
+  {
+    id: "06",
+    name: "HACKATON Generative AI Snappr",
+    environment: "Python",
+    description: "Third Place. My Team's Project was an AI that used whisper for transcripting a voice message. The AI returned some improving advices to make a better text. It also received a plain text file.",
+  },
+
+  {
+    id: "08",
+    name: "HACKATON Servicios Digitales Sistecredito",
+    environment: "NestJS, PostgreSQL, Python",
+    description: "The topic was creating a shopkeeper system with a machine learning model for optimizing stock.",
+  },
+
+  {
+    id: "07",
+    name: "HACKATON Analítica ISA",
+    environment: "Python",
+    description: "We went to ISA headquarters in Medellín, My team exposed a model using tensorflow libraries to improve their operations in energy towers.",
+  },
+
+  {
+    id: "08",
+    name: "HACKATON Analítica Sistecredito",
+    environment: "Python",
+    description: "My team exposed a model for detecting transaction fraud",
   },
 
 ];
 
 export const aboutMe= {
-  introduction: "My name is Simon Gómez, and I was born in 2004 in Santa Marta, Colombia. I began my studies at Bureche School in Santa Marta. However, due to family work-related issues, we moved to Medellín, Colombia, in 2015. I continued my education at San Ignacio School and, upon graduation, applied to the Engineering Management program at EIA University. During my time in the 5th semester, I realized my true passion lay in a different field. This led me to switch my major to Systems Engineering. Currently, I am an aspiring programmer with a strong interest in web development, particularly with React. Though I am just beginning my journey in this field, I have already gained some experience working with Java and Python. My passion for learning and commitment to honing my skills drive me to explore new technologies and best practices continuously. I am eager to grow as a professional, contribute to exciting projects, and connect with others in the tech community. I look forward to learning from and engaging with fellow enthusiasts.",
-  background: "I am studyng System Engineering at Universidad EIA.",
-  skills: "I have some experience working in data science with the data analytics research group and my experience gained in java doing projects.",
+  introduction: "My name is Simon Gómez, and I was born in 2004 in Santa Marta, Colombia. I began my studies at Bureche School in Santa Marta. However, due to family work-related issues, we moved to Medellín, Colombia, in 2015. I continued my education at San Ignacio School and, upon graduation, applied to the Engineering Management program at EIA University. During my time in the 5th semester, I realized my true passion lay in a different field. This led me to switch my major to Systems Engineering. My passion for learning and commitment to honing my skills drive me to explore new technologies and best practices continuously. I am eager to grow as a professional, contribute to exciting projects, and connect with others in the tech community. I look forward to learning from and engaging with fellow enthusiasts.",
+  background: "",
+  skills: "",
   interests: "I enjoy playing soccer, hanging out with friends or girlfriend, and travelling to new places around Colombia and the world.",
   careerGoals: " In the future, i aim to make my knowledge deeper, being able to give all my effort into a better society.",   
 };

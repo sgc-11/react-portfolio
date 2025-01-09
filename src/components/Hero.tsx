@@ -33,8 +33,6 @@ const Hero = () => {
           {tagline}
           </p>
 
-        <button className='primary-btn'>Contact Me</button>
-
       </div>
 
       <div className='flex gap-2 justify-center md:gap-3 lg:gap-5 z-[1]'>
@@ -60,7 +58,7 @@ const Hero = () => {
 
           <InfoTile
             icon = {<MdOutlineBadge size={20} className='text-sky-400'/>}
-            text={`${yearsOfExperience} Years of Experience`}
+            text={`${yearsOfExperience}`}
             />
 
             <div className='flex items-center gap-2 flex-wrap my-3'>
